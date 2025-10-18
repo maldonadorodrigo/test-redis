@@ -2,8 +2,8 @@ import redis
 import os
 import time
 
-REDIS_HOST = os.getenv("REDIS_HOST", "localhost")
-REDIS_PORT = int(os.getenv("REDIS_PORT", 6379))
+REDIS_HOST = portainer_redis-db
+REDIS_PORT = 6379
 
 while True:
     try:
