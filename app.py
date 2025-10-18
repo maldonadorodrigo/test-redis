@@ -4,7 +4,8 @@ import time
 
 REDIS_HOST = os.getenv("REDIS_HOST", "localhost")
 REDIS_PORT = int(os.getenv("REDIS_PORT", 6379))
-print(f"Testando redis em {REDIS_HOST}:{REDIS_PORT}")
+print(f"🚀 Testando Redis em {REDIS_HOST}:{REDIS_PORT}")
+
 
 while True:
     try:
